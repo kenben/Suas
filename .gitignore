@@ -26,6 +26,9 @@
 # Python related....
 # iPython notebooks
 .ipynb_checkpoints/*
+# don't commit notebooks - they can contain code output
+# instead, save it as .py
+*ipynb
 # Python builds
 *.egg*
 dist
